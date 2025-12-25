@@ -57,8 +57,35 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ```bash
 npm run build
-npm start
 ```
+
+This will create a static export in the `out` directory, ready for deployment.
+
+## Deployment to GitHub Pages
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Setup Instructions:
+
+1. **Enable GitHub Pages:**
+   - Go to your repository settings on GitHub
+   - Navigate to "Pages" in the left sidebar
+   - Under "Source", select "GitHub Actions"
+
+2. **Add EmailJS Secrets:**
+   - Go to your repository settings
+   - Navigate to "Secrets and variables" > "Actions"
+   - Add the following secrets:
+     - `EMAILJS_PUBLIC_KEY` - Your EmailJS public key
+     - `EMAILJS_SERVICE_ID` - Your EmailJS service ID
+     - `EMAILJS_TEMPLATE_ID` - Your EmailJS template ID
+
+3. **Deploy:**
+   - Push to the `main` branch (or manually trigger the workflow)
+   - GitHub Actions will automatically build and deploy your site
+   - Your site will be available at `https://hanli111.github.io`
+
+The workflow will automatically rebuild and redeploy whenever you push changes to the main branch.
 
 ## Tech Stack
 
