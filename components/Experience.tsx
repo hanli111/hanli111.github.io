@@ -4,6 +4,18 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
+    company: 'Isuzu',
+    position: 'Software Engineer',
+    period: 'Jan. 2026 - Present',
+    location: 'Ann Arbor, MI',
+    description: [
+      'Built an AI-driven fleet optimization system improving delivery efficiency by 18% by designing modular Python services for data ingestion, simulation, and routing orchestration.',
+      'Reduced routing failures by 25% in simulation by implementing constraint-aware planning logic for delivery windows, charging logistics, and vehicle limits.',
+      'Extended battery range by 12% by modeling BEV energy consumption from speed profiles and elevation gain.',
+      'Enabled real-time route adaptation, measured by successful mid-route replanning, by fusing live vehicle state, traffic, and weather inputs into an agent-based decision loop.'
+    ],
+  },
+  {
     company: 'Sideline',
     position: 'Software Development Engineer Intern',
     period: 'May. 2025 - Aug. 2025',
@@ -36,18 +48,6 @@ const experiences = [
       'Implemented personalized question history and advanced filters, cutting average search time by 30%.',
       'Led backend integration with Python to support 200+ daily queries with under 1s latency.',
       'Collaborated with 10 iOS devs and 4 designers, achieving a 95% feature completion rate before demo.',
-    ],
-  },
-  {
-    company: 'Discovery Partners Institute',
-    position: 'iOS App Development Intern',
-    period: 'Jun. 2023 - Aug. 2023',
-    location: 'Chicago, IL',
-    description: [
-      'Delivered an entertainment app that onboarded 50+ test users, achieving 90% retention during the pilot program.',
-      'Built authentication and profile management, reducing login errors by 40% compared to the baseline system.',
-      'Collaborated with 2 UX designers and 1 iOS developer, ensuring a seamless and visually appealing interface.',
-      'Optimized app performance by reducing average screen load times to under 300ms, improving overall user experience during pilot testing.',
     ],
   },
 ]
