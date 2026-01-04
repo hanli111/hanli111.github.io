@@ -33,8 +33,8 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm currently interning at Ally Financial as a Software Engineer on the Software 
-            Architecture team, building scalable applications and improving user experiences.
+            I'm currently interning at IBM as a Software Engineer on the z/Architecture
+            team, building scalable applications and improving user experiences.
             I'm also pursuing my Bachelor's degree in Computer Science at the University of 
             Michigan. Please reach out if you have any questions!
           </p>
